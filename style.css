@@ -1,0 +1,251 @@
+header{
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:  0 20px;
+	border-bottom: 1px solid #ccc;
+}
+#menus{
+	width: 600px;
+}
+.menu2{
+	display: flex;
+	justify-content: space-between;
+}
+#fond{
+	height: 500px;
+	background-image: url(image/fond.jpg);
+	background-size: cover;
+	padding-top: 40px;
+}
+h1{
+	font-family: "Franklin-Gothic-URW-Book";
+	font-weight: 400px;
+	color: #0d83dd;
+	line-height: 1.3em;
+	font-size: 45px	;
+}
+#fond p{
+	padding: 20px 0 ;
+	font-size: 18px;
+}
+#fond .btn{
+	width: 275px;
+	height: 60px;
+	padding-top: 15px;
+	font-size: 20px;
+	background-color: #85c525;
+}
+.sponsor{
+	background-color: #f1f1f1;
+	}
+.sponsor ul li{
+	list-style-type:none;
+	display: inline; 
+	padding-right: 55px;
+}
+#colonne {
+	height: 430px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+p{
+	font-family: "Franklin-Gothic-URW";
+	font-size: 18px;
+}
+h2,h3{
+	font-family: "Franklin-Gothic-URW-Book";
+	color: #0d83dd;
+}
+#invoice{
+	background-color:#e5f4fe;
+	padding-top: 20px;
+}
+.cm{
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	font-size: 18px;
+}
+.contenu{
+	display: flex;
+	justify-content: space-around;
+}
+.ct{
+	margin: 30px 0 0 35px;
+}
+.ct p{
+	margin: 40px 0;
+}
+.ct .btn{
+	background: transparent;
+	color: black;
+}
+.ct .btn:hover{
+	color: white;
+	background-color: #0d83dd;
+}
+.ct img{
+	display: flex;
+	align-self: flex-end;
+}
+#tof img {
+	width: 150px;
+	height: 150px;
+}
+.image-circle{
+	border-radius: 100%;
+}
+#tof{
+	height: 503px;
+	position: relative;
+	top: 70px;
+	text-align: center;
+}
+.images{
+	display: flex;
+	justify-content: space-around;
+}
+#tof hr{
+	width: 60px;
+	border: 1px solid #0d83dd;
+}
+.fax , .fax2{
+	height: 86px;
+	border: 1px solid gray;
+	text-align: center;
+	border-radius: 10px;
+	padding: 18px 5px;
+}
+.fax .btn , .fax2 .btn{
+	background-color: #85c525;
+	width: 150px;
+	height: 40px;
+	margin-top: 10px;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+#learn{
+	height: 691px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+#learn .btn{
+	width: 150px;	
+	background: transparent;
+	color: black;
+	border-color: gray; 
+}
+#learn .btn:hover{
+	color: white;
+	background-color: #0d83dd;
+}
+#mobile{
+	display: flex;
+	justify-content: space-around;
+	padding: 0 60px;
+}
+#ordi{
+	height: 432px;
+	display: flex;
+	justify-content: space-around;
+}
+.text{
+	margin-top: 30px;
+
+}
+.text .btn{
+	background: transparent;
+	color: black;
+	border:2px solid #ccc;
+}
+.text .btn:hover{
+	color: white;
+	background-color: #0d83dd;
+}
+.fax2{
+	font-size: 26px;
+	font-family: "Franklin-Gothic-URW";
+}
+#monde{
+	height: 480px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#philo{
+	height: 320px;
+	text-align: center;
+}
+#philo .btn{
+	background: transparent;
+	color: black;
+	border:2px solid #ccc;
+	padding: 15px 30px ;
+}
+#philo .btn:hover{
+	color: white;
+	background-color: #0d83dd;
+}
+#philo p{
+	padding: 20px 0;
+}
+#face{
+	height: 530px;
+}
+#face .photo{
+	height: 256px;
+	background-image: url(image/face.jpg);
+	background-size: cover;
+}
+.sta{
+	display: flex;
+	justify-content: space-around;
+	height: 270px;
+	background: #0d83dd;
+	align-items: center;
+}
+.sta h1{
+	color: white;
+}
+.sta .btn{
+	padding: 16px 60px;
+	background: #85c525;
+}
+#pied{
+	height: 480px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30px;
+	border-bottom: 1px solid #ccc;
+}
+#pied ul li{
+	list-style-type: none;
+	line-height: 2.3em;
+}
+#pied ul li a{
+	color: #ccc;
+	font-size: 16px;
+	text-decoration: none;
+}
+#pied ul li a:hover{
+    color:#0d83dd;
+}
+#fin{
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#fin .fa{
+	font-size: 30px;
+}
+.text-center{
+	width: 36px;
+	height: 36px;
+	margin-right: 12px;
+}
