@@ -14,18 +14,40 @@ header{
 	display: flex;
 	justify-content: space-between;
 }
+#menus a {
+	color: black;
+	text-decoration: none;
+}
+.menu2 .btn{
+	color: black;
+	background: transparent;
+}
+.menu2 .btn:hover{
+	color: black;
+	background-color: #85c525;
+	color: white;
+}
+#menus a:hover{
+	color:#0d83dd;
+}
+#menus span{
+	color: #ccc;
+}
 #fond{
 	height: 500px;
 	background-image: url(image/fond.jpg);
 	background-size: cover;
 	padding-top: 40px;
 }
-h1{
+#fond h1{
 	font-family: "Franklin-Gothic-URW-Book";
 	font-weight: 400px;
 	color: #0d83dd;
 	line-height: 1.3em;
 	font-size: 45px	;
+}
+h1{
+	color: #0d83dd;
 }
 #fond p{
 	padding: 20px 0 ;
@@ -39,6 +61,7 @@ h1{
 	background-color: #85c525;
 }
 .sponsor{
+	height: 62px;
 	background-color: #f1f1f1;
 	}
 .sponsor ul li{
@@ -55,6 +78,7 @@ h1{
 p{
 	font-family: "Franklin-Gothic-URW";
 	font-size: 18px;
+	line-height: 25px;
 }
 h2,h3{
 	font-family: "Franklin-Gothic-URW-Book";
@@ -63,6 +87,7 @@ h2,h3{
 #invoice{
 	background-color:#e5f4fe;
 	padding-top: 20px;
+	height: 375px;
 }
 .cm{
 	display: flex;
@@ -248,4 +273,9 @@ h2,h3{
 	width: 36px;
 	height: 36px;
 	margin-right: 12px;
+}
+.bton{
+	font-size: 22px;
+	font-family: "Franklin-Gothic-URW";
+	font-weight: normal;
 }
